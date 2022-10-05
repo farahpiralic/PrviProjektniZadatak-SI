@@ -1,0 +1,74 @@
+.naslov{
+    border-radius: 20px;
+    text-align: center;
+    background-color:rgb(220,218,218);
+    font-style:inherit;
+    font-size: 50px;
+ 
+}
+
+.div{
+    margin: auto;
+    text-align: center;
+}
+
+.menu{
+    display: inline-block;
+    background-color:rgb(220,218,218) ;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 20px;
+    font-style:"Courier";
+    
+
+}
+.table{
+ display:inline-block;
+ float: left;
+ background-color:rgb(220,218,218) ;
+ border-radius: 20px;
+ border-color: black;
+ width: 300px;
+ height: 450px;
+ font-size: 20px;
+ font-style:"Courier";
+}
+.li{
+   display: inline-block;
+}
+.a{
+    color: black;
+
+}
+.image{
+    display: inline-block;
+    float:right;
+    border-style:outset;
+} 
+.paragraph1{
+    display: inline-block;
+    float: right;
+}
+.paragraph2{
+    display: inline-block;
+    float: right;
+}
+.menu1{
+    font-size: 14px;
+    font-style:"Courier";
+
+}
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.menu2{
+    font-size: 14px;
+    font-style:"Courier";
+
+}
+.li1{
+    display: inline-block;
+}

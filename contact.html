@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="script" href="script.js">
+    <title>Form</title>
+</head>
+<style>
+
+    h1 {text-align: center;}
+    form{text-align: center;}
+</style>
+<body style="background-color: rgb(220,218,218);">
+    <link rel="stylesheet" href="style.css">
+    <a class="a" href="index.html">BACK</a>
+    <h1>Question Form</h1>
+    <form method="get">
+        <label for="name">Name and Surname:</label>
+        <input name="name" type="text">
+        <br><br>
+        <label for="birth">Date of birth: </label>
+        <input type="date" name="birth">
+        <br><br>
+        <label>What is your gender? </label><br>
+        <label for="radio">Female</label>
+        <input type="radio" name="radio" value="Female">
+        <label for="radio">Male</label>
+        <input type="radio" name="radio" value="Male">
+        <label for="radio">Other</label>
+        <input type="radio" name="radio" value="Other">
+        <br><br>
+        <label for="email">Email adress: </label>
+        <input name="email" type="email">
+        <br><br>
+        <label for="pass">Password: </label>
+        <input name="pass" type="password">
+        <br><br>
+        <label for="ques">Ask a question: </label>
+        <textarea name="ques" type="question" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="rate">Rate the page </label>
+        <select name="rate">
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Bad">Bad</option>
+            <option value="Very bad">Very bad</option>
+        </select>
+        <br><br>
+        <button type="submit">SUBMIT FORM</button>
+    </form>
+</body>
+</html>
